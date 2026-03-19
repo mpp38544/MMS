@@ -61,3 +61,9 @@ Order book: Custom C++ simulation
 Data storage: Parquet
 Visualisation: Python + matplotlib
 
+---
+
+## Visualisation
+
+![Dashboard](mms_git.png)
+
