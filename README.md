@@ -1,11 +1,11 @@
 # MMS — Market Making Strategy
 
-A high-frequency market making strategy implemented in C++ using the Avellaneda-Stoikov model. Simulates a full order book with dynamic bid-ask spread optimisation based on inventory risk and market volatility. Includes a backtesting engine tested on BTCUSDT historical data, with trade logs and PnL visualisation.
+A high-frequency market making strategy implemented in C++ using the Avellaneda-Stoikov model. Simulates a full order book with dynamic bid-ask spread optimisation based on inventory risk and market volatility. Includes a multi-threaded backtesting engine tested on BTCUSDT historical data, with trade logs and PnL visualisation.
 
 ---
 
 ## What it does
-The system simulates an order book, matches incoming orders against resting quotes, and tracks PnL over the backtest period. It utilises the Avellaneda Market Making Strategy.
+The system simulates an order book, matches incoming orders against resting quotes, and tracks PnL over the backtest period. It utilises the Avellaneda Stoikov (AS) Market Making Strategy and can concurrently simulate several backtests using different AS parameters.
 
 ---
 
